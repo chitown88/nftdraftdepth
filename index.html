@@ -1,12 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
 <h1>Updated: Thursday, October 13, 2022 - 03:12 AM EDT</h1>
-<table border="1" class="dataframe">
+
+
+<table border="1" id="customers">
   <thead>
     <tr style="text-align: right;">
-      <th>name</th>
-      <th>player_name</th>
-      <th>team_name</th>
-      <th>position</th>
-      <th>depth_chart</th>
+      <th>Card</th>
+      <th>Player</th>
+      <th>Team</th>
+      <th>Position</th>
+      <th>Depth Chart</th>
     </tr>
   </thead>
   <tbody>
@@ -3099,3 +3131,8 @@
     </tr>
   </tbody>
 </table>
+
+</body>
+</html>
+
+
