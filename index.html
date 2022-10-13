@@ -28,10 +28,23 @@
 #myTable th, #myTable td {
   text-align: left;
   padding: 12px;
+  border: 1px solid #ddd;
+  padding: 8px;
 }
+
+
+#myTable tr:nth-child(even){background-color: #f2f2f2;}
 
 #myTable tr {
   border-bottom: 1px solid #ddd;
+}
+
+#myTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #003366;
+  color: white;
 }
 
 #myTable tr.header, #myTable tr:hover {
